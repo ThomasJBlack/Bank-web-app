@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-family: sans-serif;
+  font-size: 25px;
+}
+header {
+  display: flex;
+  position: fixed;
+  width: 100vw;
+  background-color: darkgray;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+
+  margin: 0;
+  padding: 0px 300px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+main {
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+  width: 35vw;
+}
+
+button {
+  width: 100px;
+  height: 35px;
+  margin: 10px;
+}
+h1 {
+  margin: 10px;
+}
+
+#error {
+  color: red;
+}
